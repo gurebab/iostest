@@ -740,7 +740,7 @@ input::-webkit-search-results-decoration {
 
 .popup .preview_book {
     background-color: #ffffff;
-    height: 90vh;
+    height: calc((var(--vh, 1vh) * 100) - 80px);
 }
 
 .popup .preview_book .cover {
